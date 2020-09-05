@@ -1,4 +1,4 @@
-package main.java.com.bsu;
+package com.bsu;
 
 import com.sun.media.sound.InvalidFormatException;
 
@@ -27,11 +27,11 @@ public class TailorSeriesCalculator {
     }
   }
 
-  public static double calculateActualValue(double x) {
+  static double calculateActualValue(double x) {
     return 1 / Math.pow(1 + x, 3);
   }
 
-  public static double calculateTailorSeries(double eps, double x) {
+  static double calculateTailorSeries(double eps, double x) {
     double elem = 100;
     double calculatedValue = 0;
     int n = 1;
