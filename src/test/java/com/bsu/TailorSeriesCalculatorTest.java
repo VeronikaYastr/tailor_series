@@ -1,4 +1,4 @@
-package test.com.bsu;
+package test.java.com.bsu;
 
 import main.java.com.bsu.TailorSeriesCalculator;
 import org.junit.jupiter.api.Test;
